@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+/* In House CSS */
+
+.divNav {
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  display: inline-block;
+}
+
+li .link {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li .link:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li .link.active {
+  color: white;
+  background-color: #04aa6d;
+}
+
+.signupDiv input[type="text"],
+.signupDiv input[type="email"],
+.signupDiv input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signupDiv input[type="submit"] {
+  width: 30%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.signupDiv input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.signupDiv {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 35%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: left;
+}
